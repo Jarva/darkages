@@ -1,6 +1,6 @@
 GM.Name = "Dark Ages"
-GM.Author = "Gabeee, Botond, ProgSys, Jake, Daisuke"
-GM.Email = "gabesz1995@citromail.hu"
+GM.Author = "Jarva and The Dark Ages Team"
+GM.Email = ""
 
 team.SetUp(2,"Adventurers",Color(130,80,50,255) )
 
