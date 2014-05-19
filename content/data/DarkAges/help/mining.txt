@@ -1,0 +1,13 @@
+Greetings adventurer!
+
+Mining is one of the most important skills in the gamemode.
+You can make better axes, pickaxes and swords by improving mining.
+Actually, mining is just one of the two skills which is needed to improve.
+The other one is smithing but about that we talk later.
+First of all you have to find a mine.
+In the mine you have to find an ore. By pressing left click
+with a pickaxe you start to mine the rock.
+Next to this text you can see a list about the rocks.
+On level 1 you can only mine stone but usually there is a quest
+which requires stone and you get enough xp to jump 2 level.
+Good luck.

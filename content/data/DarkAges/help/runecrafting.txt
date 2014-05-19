@@ -1,0 +1,15 @@
+Greetings adventurer!
+
+Runecrafting is a really important skill for magic.
+Without runes you can't use magic.
+You need level 3 mining to mine rune essence.
+After you gathered some you have to find the rune altair.
+There is a picture about it next to the text.
+Rune essence isn't enough to make runes, you need an orb.
+The orbs' element sets the runes' element.
+You can get orbs in dungeons.
+You can get more information about runes in the Runes menu.
+
+Have fun with magic.
+
+

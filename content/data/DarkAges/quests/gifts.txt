@@ -1,0 +1,13 @@
+Greetings adventurer
+
+I would have a little job for you.
+I have a friend, a smith.
+He is in trouble because his son can't mine
+and he doesn't have enough money to buy resources.
+I would like to give him some.
+Please bring me the followings : 
+-5 tin ore
+-5 copper ore
+-5 sandstone
+
+Thank you my friend

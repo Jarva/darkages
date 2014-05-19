@@ -1,0 +1,312 @@
+//-----------
+//Ores
+//-----------
+
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_ore_all.mdl") = da_stone : "Stone"
+[
+Model(choices) : "Model (string)" : "models/PG_props/pg_forest/pg_ore_all.mdl" =  
+	[
+		"models/PG_props/pg_forest/pg_ore_all.mdl" : "Model 01"
+		"models/PG_props/pg_forest/pg_ore_all02.mdl" : "Model 02"
+		"models/pg_props/pg_forest/pg_ore_all.mdl" : "Model 03"
+		"models/PG_props/pg_forest/pg_ore_all04.mdl" : "Model 04"
+	]
+]
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_ore_all.mdl") = da_tin : "Tin"
+[
+Model(choices) : "Model (string)" : "models/PG_props/pg_forest/pg_ore_all.mdl" = 
+	[
+		"models/PG_props/pg_forest/pg_ore_all.mdl" : "Model 01"
+		"models/PG_props/pg_forest/pg_ore_all02.mdl" : "Model 02"
+		"models/pg_props/pg_forest/pg_ore_all.mdl" : "Model 03"
+		"models/PG_props/pg_forest/pg_ore_all04.mdl" : "Model 04"
+	]
+]
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_ore_all.mdl") = da_copper : "Copper"
+[
+Model(choices) : "Model (string)" : "models/PG_props/pg_forest/pg_ore_all.mdl" = 
+	[
+		"models/PG_props/pg_forest/pg_ore_all.mdl" : "Model 01"
+		"models/PG_props/pg_forest/pg_ore_all02.mdl" : "Model 02"
+		"models/pg_props/pg_forest/pg_ore_all.mdl" : "Model 03"
+		"models/PG_props/pg_forest/pg_ore_all04.mdl" : "Model 04"
+	]
+]
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_ore_all.mdl") = da_iron : "Iron"
+[
+Model(choices) : "Model (string)" : "models/PG_props/pg_forest/pg_ore_all.mdl" = 
+	[
+		"models/PG_props/pg_forest/pg_ore_all.mdl" : "Model 01"
+		"models/PG_props/pg_forest/pg_ore_all02.mdl" : "Model 02"
+		"models/pg_props/pg_forest/pg_ore_all.mdl" : "Model 03"
+		"models/PG_props/pg_forest/pg_ore_all04.mdl" : "Model 04"
+	]
+]
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_ore_all.mdl") = da_coal : "Coal"
+[
+Model(choices) : "Model (string)" : "models/PG_props/pg_forest/pg_ore_all.mdl" = 
+	[
+		"models/PG_props/pg_forest/pg_ore_all.mdl" : "Model 01"
+		"models/PG_props/pg_forest/pg_ore_all02.mdl" : "Model 02"
+		"models/pg_props/pg_forest/pg_ore_all.mdl" : "Model 03"
+		"models/PG_props/pg_forest/pg_ore_all04.mdl" : "Model 04"
+	]
+]
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_ore_all.mdl") = da_mithril : "Mithril"
+[
+Model(choices) : "Model (string)" : "models/PG_props/pg_forest/pg_ore_all.mdl" = 
+	[
+		"models/PG_props/pg_forest/pg_ore_all.mdl" : "Model 01"
+		"models/PG_props/pg_forest/pg_ore_all02.mdl" : "Model 02"
+		"models/pg_props/pg_forest/pg_ore_all.mdl" : "Model 03"
+		"models/PG_props/pg_forest/pg_ore_all04.mdl" : "Model 04"
+	]
+]
+@PointClass base(Angles) studio() = da_runeessence : "Rune essence"
+[
+model(studio) : "Model"
+]
+@PointClass base(Angles) studio("models/pg_props/pg_forest/pg_sandstone.mdl") = da_sandstone : "Sandstone"
+[
+
+]
+
+//-----------
+//Trees
+//-----------
+
+@PointClass base(Angles) studio("models/gm_forest/tree_birch1.mdl") = da_birch : "Birch"
+[
+
+]
+@PointClass base(Angles) studio("models/props_foliage/vrba1a.mdl") = da_willow : "Willow"
+[
+
+]
+@PointClass base(Angles) studio("models/props_foliage/tree_pine04.mdl") = da_pine : "Pine"
+[
+
+]
+@PointClass base(Angles) studio("models/props/de_inferno/tree_small.mdl") = da_teak : "Teak"
+[
+
+]
+
+//-----------
+//Quest
+//-----------
+
+@PointClass base(Angles) studioprop() = npc_squest : "Quest Starter"
+[
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+quest(string) : "Quest"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_tquest : "Quest Talker"
+[
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+quest(string) : "Quest"
+item(integer) : "Quest Item"
+name(string) : "Name"
+]
+
+//-----------
+//Teleporters
+//-----------
+
+@PointClass base(Angles) studioprop() = npc_dtele : "Dungeon Teleporter"
+[
+target(vector) : "Choose the target"
+direction(choices) : "Direction" : 0 = 
+	[
+		"in" : "In"
+		"out" : "Out"
+	]
+model(studio) : "Choose model"
+skin(integer) : "Skin"
+dungeon(string) : "Name of the dungeon"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_tele : "Teleporter"
+[
+Target(vector) : "Choose the target"
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+ask(string) : "Question"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_stele : "Teleporter[Skill]"
+[
+Target(vector) : "Choose the target"
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+skill(string) : "Skill"
+level(integer) : "Level"
+ask(string) : "Question"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_gtele : "Teleporter[Gold]"
+[
+Target(vector) : "Choose the target"
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+gold(integer) : "Gold"
+ask(string) : "Question"
+name(string) : "Name"
+]
+@PointClass base(Origin) studio("models/editor/playerstart.mdl") = da_target : "Teleporter Destination"
+[
+
+]
+//-----------
+//Dungeon
+//-----------
+
+@PointClass base(Origin) = da_boss : "Mob Spawner"
+[
+mob(string) : "Mob"
+retime(integer) : "Respawn time"
+lvl(integer) : "Level"
+]
+@PointClass base(Origin) sphere(range) = da_dspawner : "Boss Spawner"
+[
+mob(string) : "Mob"
+range(integer) : "Range"
+retime(integer) : "Respawn time"
+minlvl(integer) : "Minimum level"
+maxlvl(integer) : "Maximum level"
+maxmob(integer) : "Maximum mob"
+extra(string) : "Extra [elite]"
+]
+
+//-----------
+//Arena
+//-----------
+
+@PointClass base(Angles) studio("models/editor/playerstart.mdl") = da_arenaspawn : "Arena Spawn"
+[
+arena(string) : "Arena ID"
+]
+@PointClass base(Angles) studio("models/editor/playerstart.mdl") = da_arenaend : "Arena End"
+[
+arena(string) : "Arena ID"
+]
+@PointClass base(Angles) studioprop() = npc_arena : "Arena Guy"
+[
+model(studio) : "Choose the teleporter model"
+skin(integer) : "Skin"
+arena(string) : "Arena ID"
+name(string) : "Name"
+]
+
+//-----------
+//Battleground
+//-----------
+
+@PointClass base(Origin) sphere(range) = da_bgspawn : "Battleground team spawn"
+[
+battleground(string) : "Battleground ID"
+team(string) : "Team ID"
+range(integer) : "Range"
+]
+@PointClass base(Angles) studioprop() = npc_battleground : "Battleground Guy"
+[
+model(studio) : "Choose a model"
+skin(integer) : "Skin"
+battleground(string) : "Battleground ID"
+name(string) : "Name"
+]
+
+@PointClass base(Angles) studio("models/daisuke/furnace.mdl") = da_furnace : "Furnace"
+[
+
+]
+@PointClass base(Angles) studio("models/darkages/rune_ess_altar.mdl") = da_runealtar : "Rune altar"
+[
+
+]
+@PointClass base(Angles) studio("models/medieval/manvil.mdl") = da_anvil : "Anvil"
+[
+
+]
+@PointClass base(Angles) studio("models/darkages/da_cauldron01.mdl") = da_cauldron : "Cauldron"
+[
+
+]
+@PointClass base(Angles) studio("models/daisuke/crafting_table.mdl") = da_craftdesk : "Crafting Desk"
+[
+
+]
+@PointClass base(Origin) = da_fishingspot : "Fishing spot"
+[
+fishes(string) : "Fishes [seperated with ',']"
+]
+@PointClass base(Origin) sphere(range) = da_ispawn : "Item Spawner"
+[
+item(string) : "Item which spawns"
+range(integer) : "Range"
+time(integer) : "Growing speed"
+]
+
+//-----------
+//NPCs
+//-----------
+
+@PointClass base(Angles) studioprop() = npc_shop : "Shop"
+[
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+shopid(string) : "Shop ID"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_clanmaster : "Clan Master"
+[
+model(studio) : "Choose model"
+skin(integer) : "Skin"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_clanbank : "Clan Bank"
+[
+model(studio) : "Choose model"
+skin(integer) : "Skin"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_bank : "Bank"
+[
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_tokenvendor : "Token Vendor"
+[
+Model(studio) : "Choose model"
+skin(integer) : "Skin"
+vendorid(string) : "Token Vendor ID"
+name(string) : "Name"
+]
+@PointClass base(Angles) studioprop() = npc_magictrainer : "Magic trainer"
+[
+model(studio) : "Choose model"
+skin(integer) : "Skin"
+name(string) : "Name"
+]
+@SolidClass base(Targetname) = da_zone : "Zone"
+[
+type(choices) : "Type" : 0 = 
+	[
+		0 : "Peaceful"
+		1 : "PVP"
+		2 : "Mob/Dungeon [non pvp]"
+	]
+name(string) : "Name of the territory [like Stormwind xd]"
+]
+@SolidClass base(Targetname) = da_marketzone : "Market Zone"
+[
+
+]
+@SolidClass base(Targetname) = da_farmzone : "Farm Zone"
+[
+
+]

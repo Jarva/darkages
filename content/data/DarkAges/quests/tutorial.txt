@@ -1,0 +1,31 @@
+Welcome to the world of Dark Ages.
+You're about to accept your first quest.
+You have probably already noticed the basic needs of your character in the
+top right corner.
+Make sure you never get hungry or thirsty, as this will cause you to slowly
+die,
+allowing other players to steal your stuff!
+Now, let's get started. The options menu can be opened using F1,
+you can make fires and plant seeds using F2 and F3 opens your quest log.
+Your skills can also be seen in the options menu, and you can choose to 
+track certain skills,
+making their statistics show on the HUD. This makes it a lot easier when you
+want to achieve a certain level.
+The options menu includes your inventory aswell, so you will need this menu 
+frequently.
+your english is perfect
+For this tutorial quest, you will need to get some logs, stone and trout. 
+Once you accepted this quest,
+press F1 and go to your inventory. Grab out your pickaxe,
+or whatever you want to start with. To gather a resource from a tree or ore,
+simply equip the tool and press mouse1 on the ore or tree. Your character will
+now gather an ore or a log,
+the ores gathered depend on what you're mining, but the logs are random.
+To fish, equip your rod and find a good place, where the land is almost the
+same height as the water.
+Fishing is as easy as mining or anything else,
+simply press mouse1 on the water and your character will begin to fish.
+Now that you know the basics, why not try them out?
+Bring me 2 stone, 2 oak logs and 2 trout, and I will reward you with 
+experience and some tin ore.
+

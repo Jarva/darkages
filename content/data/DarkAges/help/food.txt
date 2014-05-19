@@ -1,0 +1,20 @@
+Greetings adventurer!
+
+There are many ways to restore your hunger.
+The best way to do it is fishing.
+You can fish near to fishing spots.
+Fishing spots are in the water. Bubbles show its place.
+By using any fishing swep, for example fishing rod you
+can gather one fish. You can cook it and eat it.
+The other way is to plant fruits like banana or apple.
+You can buy seeds in the garden shop.
+With planting seeds you improve your farming and with
+cooking them you improve your cooking.
+You can eat some of the fruits themselves.
+You can make more complex meals which restore more hunger
+by using more resources.
+Next to this text you can find the list of eatable meals
+and cookable resources.
+Never forget your hunger!
+
+
