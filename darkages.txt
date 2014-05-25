@@ -1,6 +1,0 @@
-"darkages"
-{
-	"base"		"base"
-	"title"		"Dark Ages"
-	"maps"		"^da_"
-}
