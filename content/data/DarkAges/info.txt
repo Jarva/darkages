@@ -1,0 +1,267 @@
+"Out"
+{
+	"tinderbox"
+	{
+	"name" "Tinderbox"
+	"sell" "1"	
+	"buy" "5"
+	}
+	"gold"
+	{
+	"name" "Gold"
+	"sell" ""	
+	"buy" ""
+	}
+	"stone"
+	{
+	"name" "Stone"
+	"sell" "3"	
+	"buy" "12"
+	}
+	"copper ore"
+	{
+	"name" "Copper Ore"
+	"sell" "5"	
+	"buy" "21"
+	}
+	"tin ore"
+	{
+	"name" "Tin Ore"
+	"sell" "7"	
+	"buy" "32"
+	}
+	"iron ore"
+	{
+	"name" "Iron Ore"
+	"sell" "10"	
+	"buy" "47"
+	}
+	"coal"
+	{
+	"name" "Coal"
+	"sell" "12"	
+	"buy" "55"
+	}
+	"mithril ore"
+	{
+	"name" "Mithril Ore"
+	"sell" "17"	
+	"buy" "78"
+	}
+	"birch"
+	{
+	"name" "Birch"
+	"sell" "3"	
+	"buy" "14"
+	}
+	"willow"
+	{
+	"name" "Willow"
+	"sell" "6"	
+	"buy" "25"
+	}
+	"pine"
+	{
+	"name" "Pine"
+	"sell" "10"	
+	"buy" "40"
+	}
+	"teak"
+	{
+	"name" "Teak"
+	"sell" "13"	
+	"buy" "52"
+	}
+	"yew"
+	{
+	"name" "Yew"
+	"sell" "16"	
+	"buy" "72"
+	}
+	"sardine"
+	{
+	"name" "Sardine"
+	"sell" "3"	
+	"buy" "11"
+	}
+	"trout"
+	{
+	"name" "Trout"
+	"sell" "5"	
+	"buy" "23"
+	}
+	"pike"
+	{
+	"name" "Pike"
+	"sell" "6"	
+	"buy" "30"
+	}
+	"salmon"
+	{
+	"name" "Salmon"
+	"sell" "8"	
+	"buy" "39"
+	}
+	"lobster"
+	{
+	"name" "Lobster"
+	"sell" "10"	
+	"buy" "51"
+	}
+	"c_sardine"
+	{
+	"name" "Cooked Sardine"
+	"sell" "5"	
+	"buy" "22"
+	}
+	"c_trout"
+	{
+	"name" "Cooked Trout"
+	"sell" "8"	
+	"buy" "38"
+	}
+	"c_pike"
+	{
+	"name" "Cooked Pike"
+	"sell" "10"	
+	"buy" "49"
+	}
+	"c_salmon"
+	{
+	"name" "Cooked Salmon"
+	"sell" "13"	
+	"buy" "62"
+	}
+	"c_lobster"
+	{
+	"name" "Cooked Lobster"
+	"sell" "16"	
+	"buy" "74"
+	}
+	"melon seed"
+	{
+	"name" "Melon Seed"
+	"sell" "2"	
+	"buy" "13"
+	}
+	"melon"
+	{
+	"name" "Melon"
+	"sell" "5"	
+	"buy" "29"
+	}
+	"stone_pickaxe"
+	{
+	"name" "Stone Pickaxe"
+	"sell" "6"	
+	"buy" "32"
+	}
+	"stone_axe"
+	{
+	"name" "Stone Axe"
+	"sell" "5"	
+	"buy" "26"
+	}
+	"bronze_pickaxe"
+	{
+	"name" "Bronze Pickaxe"
+	"sell" "11"	
+	"buy" "57"
+	}
+	"bronze_axe"
+	{
+	"name" "Bronze Axe"
+	"sell" "10"	
+	"buy" "50"
+	}
+	"iron_pickaxe"
+	{
+	"name" "Iron Pickaxe"
+	"sell" "19"	
+	"buy" "97"
+	}
+	"iron_axe"
+	{
+	"name" "Iron Axe"
+	"sell" "18"	
+	"buy" "92"
+	}
+	"steel_pickaxe"
+	{
+	"name" "Steel Pickaxe"
+	"sell" "24"	
+	"buy" "121"
+	}
+	"steel_axe"
+	{
+	"name" "Steel Axe"
+	"sell" "23"	
+	"buy" "115"
+	}
+	"mithril_pickaxe"
+	{
+	"name" "Mithril Pickaxe"
+	"sell" "32"	
+	"buy" "178"
+	}
+	"mithril_axe"
+	{
+	"name" "Mintril Axe"
+	"sell" "31"	
+	"buy" "170"
+	}
+	"fishing_rod"
+	{
+	"name" "Fishing Rod"
+	"sell" "7"	
+	"buy" "40"
+	}
+	"fishing_net"
+	{
+	"name" "Fishing Net"
+	"sell" "13"	
+	"buy" "76"
+	}
+	"fishing_cage"
+	{
+	"name" "Fishing Cage"
+	"sell" "19"	
+	"buy" "118"
+	}
+	"bronze bar"
+	{
+	"name" "Bronze Bar"
+	"sell" "5"	
+	"buy" "27"
+	}
+	"iron bar"
+	{
+	"name" "Iron Bar"
+	"sell" "9"	
+	"buy" "47"
+	}
+	"steel bar"
+	{
+	"name" "Steel Bar"
+	"sell" "13"	
+	"buy" "66"
+	}
+	"mithril bar"
+	{
+	"name" "Mithril Bar"
+	"sell" "17"	
+	"buy" "88"
+	}
+	"hppotion"
+	{
+	"name" "Health Potion"
+	"sell" "8"	
+	"buy" "63"
+	}
+	"lhppotion"
+	{
+	"name" "Little Health Potion"
+	"sell" "4"	
+	"buy" "38"
+	}
+}

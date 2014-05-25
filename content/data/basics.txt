@@ -1,0 +1,18 @@
+Greetings adventurer!
+
+In this gamemode you have to survive and improve.
+There are many things you can do and have to do in Dark Ages.
+First of all you have to eat and drink.
+Thirst and hunger can be found in the right bottom of the screen.
+You can drink by standing in the water and press E [Use button].
+Eating is a bit more complex.
+First of all you have to use your axe [F1] -> stone axe -> Equip.
+After you equiped it, you have to find a birch tree [white tree].
+Press left click with the axe on the tree to chop it out.
+After you have 2 birch you have to find a crafting desk.
+Press E on it and make a fishing rod.
+After that, find a fishing spot and press left click with the fishing rod.
+I reccomend you to look for it next to the river on the map called Valos.
+After this, in your inventory press on the birch log and make a campfire.
+Press E on the campfire and cook the fish. You can eat it now.
+
