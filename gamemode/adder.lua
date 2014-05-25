@@ -342,11 +342,11 @@ AddBuff("regrow",5,5)
 //AddBoss(boss' id,mob_npc,visible name,attack,strength,defense,health,{item name,amount,chance[%]})
 SetMobInfo("diseased_zombie","npc_zombie","Diseased zombie",6,7,4,23,{"zombie_venom",1,1,25,"gold",10,26,60},Color(255,255,255,255),true)
 
-AddBoss("atron","npc_zombie","Atron",20,24,12,125,{"bronze_scimitar",1,1,3,"gold",1,100,90,"head_of_atron",1,1,100},"token_of_storm",1)
-AddBoss("raunol","npc_fastzombie","Raunol the librarian",20,24,12,125,{"bronze_2hsword",1,1,5,"gold",1,200,90,"head_of_raunol",1,1,100},"token_of_storm",2)
-AddBoss("disease_carrier","npc_zombie","Disease carrier",18,18,12,100,{"zombie_venom",2,2,50,"gold",50,83,20,"staff_of_darkness",1,1,2},"token_of_storm",3)
+AddBoss("atron","npc_zombie","Atron",20,24,12,125,{"bronze_scimitar",1,1,3,"gold",1,100,90,"head_of_atron",1,1,100,"token_of_storm",1,1,10})
+AddBoss("raunol","npc_fastzombie","Raunol the librarian",20,24,12,125,{"bronze_2hsword",1,1,5,"gold",1,200,90,"head_of_raunol",1,1,100,"token_of_storm",1,1,20})
+AddBoss("disease_carrier","npc_zombie","Disease carrier",18,18,12,100,{"zombie_venom",2,2,50,"gold",50,83,20,"staff_of_darkness",1,1,2,"token_of_storm",1,1.30})
 
-AddBoss("head_jailer","npc_fastzombie","Head Jailer",3,4,3,45,{"gold",10,40,20},"token_of_lightning",2)
+AddBoss("head_jailer","npc_fastzombie","Head Jailer",3,4,3,45,{"gold",10,40,20,"token_of_storm",1,1,20})
 
 SetMobInfo("mutant","npc_zombie","Mutant",4,5,4,32,{"gold",1,22,80,"orb_of_fire",1,1,10,"orb_of_light",1,1,10},Color(255,255,255,255),false)
 SetMobInfo("runner","npc_fastzombie","Runner Mutant",6,5,2,32,{"gold",1,22,80,"orb_of_air",1,1,10,"orb_of_water",1,1,10},Color(255,255,255,255),true)
