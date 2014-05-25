@@ -285,9 +285,9 @@ function StandBuildMenu(data)
 
 	local builds = {}
 
-	if (file.Exists("DarkAges/standbuilds.txt","DATA")) then
+	if (file.Exists("darkages/standbuilds.txt","DATA")) then
 
-		builds = util.KeyValuesToTable(file.Read("DarkAges/standbuilds.txt","DATA"))
+		builds = util.KeyValuesToTable(file.Read("darkages/standbuilds.txt","DATA"))
 
 	end
 
@@ -533,9 +533,9 @@ if (StandActivePart > 4) then
 
 		local builds = {}
 
-		if (file.Exists("DarkAges/standbuilds.txt","DATA")) then
+		if (file.Exists("darkages/standbuilds.txt","DATA")) then
 
-			builds = util.KeyValuesToTable(file.Read("DarkAges/standbuilds.txt","DATA"))
+			builds = util.KeyValuesToTable(file.Read("darkages/standbuilds.txt","DATA"))
 
 		end
 
@@ -560,7 +560,7 @@ if (StandActivePart > 4) then
 			StandCLModels[I]:Remove()
 		end
 
-		file.Write("DarkAges/standbuilds.txt",util.TableToKeyValues(builds))
+		file.Write("darkages/standbuilds.txt",util.TableToKeyValues(builds))
 
 		local data = {}
 		data = StandData

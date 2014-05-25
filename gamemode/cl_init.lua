@@ -243,7 +243,7 @@ Yes.DoClick = function()
 	x.qtracks = qtracks
 	x.stracks = stracks
 
-	file.Write("DarkAges/settings.txt",util.TableToKeyValues(x))
+	file.Write("darkages/settings.txt",util.TableToKeyValues(x))
 
 end
 

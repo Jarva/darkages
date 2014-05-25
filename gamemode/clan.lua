@@ -1,6 +1,6 @@
-if (file.Exists("DarkAges/clans.txt","DATA")) then
+if (file.Exists("darkages/clans.txt","DATA")) then
 
-	clans = util.KeyValuesToTable(file.Read("DarkAges/clans.txt","DATA"))
+	clans = util.KeyValuesToTable(file.Read("darkages/clans.txt","DATA"))
 
 else
 
@@ -175,7 +175,7 @@ concommand.Add("ClanKick",ClanKick)
 
 function ClanSave()
 
-	file.Write("DarkAges/clans.txt",util.TableToKeyValues(clans) )
+	file.Write("darkages/clans.txt",util.TableToKeyValues(clans) )
 
 	net.Start("clans")
 		net.WriteTable(clans)

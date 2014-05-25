@@ -53,18 +53,19 @@ include( "magic.lua" )
 include( "buffs.lua" )
 include( "potions.lua" )
 include( "damage.lua" )
+include( "armor.lua" )
 include( "admin/init.lua" )
 include( "help/init.lua" )
 include( "menus/menu.lua")
 
 include( "map/map.lua" )
 
-resource.AddFile( "resource/fonts/FairyDustB.ttf" )
-resource.AddFile( "resource/fonts/BlackCastle.ttf" )
-resource.AddFile( "resource/fonts/Plain Black.ttf" )
-resource.AddFile( "resource/fonts/Blackletter.ttf" )
-resource.AddFile( "resource/fonts/Zenda.ttf" )
-resource.AddFile( "resource/fonts/Dungeon.ttf" )
+resource.AddFile( "resource/fonts/fairydustb.ttf" )
+resource.AddFile( "resource/fonts/blackcastle.ttf" )
+resource.AddFile( "resource/fonts/plain black.ttf" )
+resource.AddFile( "resource/fonts/blackletter.ttf" )
+resource.AddFile( "resource/fonts/zenda.ttf" )
+resource.AddFile( "resource/fonts/dungeon.ttf" )
 
 util.AddNetworkString( "huddata" ) 
 util.AddNetworkString( "helptexts" ) 
@@ -122,8 +123,8 @@ util.AddNetworkString( "tradefinish" )
 -- end
 
 
-file.CreateDir("DarkAges")
-file.CreateDir("DarkAges/Save")
+file.CreateDir("darkages")
+file.CreateDir("darkages/save")
 
 CreateConVar( "da_rates", 1 )
 
@@ -133,7 +134,7 @@ function char_set(ply, cmd, args)
 
 	ply.data.model = model
 
-	file.Write("DarkAges/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
+	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
 	
 	ply:Spawn()
 
@@ -201,7 +202,7 @@ function GM:PlayerDisconnected(ply)
 	timer.Stop(ply:UniqueID().."oxygen")
 	timer.Stop("save_" .. ply:UniqueID())
 	
-	file.Write("DarkAges/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
+	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
 	
 end
 
@@ -1330,7 +1331,7 @@ function DA_ResetCharacter(ply,cmd,args)
 	ply.data.bweight = 0
 	ply.data.bcapacity = 100
 
-	file.Write("DarkAges/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
 	
 	local totallevel = 0
 	local cblevel = 0

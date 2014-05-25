@@ -119,7 +119,7 @@ local x = {}
 x.qtracks = qtracks
 x.stracks = stracks
 
-file.Write("DarkAges/settings.txt",util.TableToKeyValues(x))
+file.Write("darkAges/settings.txt",util.TableToKeyValues(x))
 
 end
 
