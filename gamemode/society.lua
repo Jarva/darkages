@@ -34,7 +34,7 @@ if (ply.data.friends == nil) then ply.data.friends = {} end
 		ply.data.friends[fply:UniqueID()].id = fply:SteamID()
 		ply.data.friends[fply:UniqueID()].last = os.date("%m/%d/%Y  %H:%M:%S")
 		
-		file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
+		file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
 		
 		HudText(ply,fply:Nick() .. " has been added to your firendlist")
 		
@@ -84,7 +84,7 @@ function RemoveFriend(ply,cmd,args)
 local id = args[1]
 
 ply.data.friends[id] = nil
-file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
+file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
 
 end
 concommand.Add("RemoveFriend",RemoveFriend)

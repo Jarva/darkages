@@ -22,7 +22,7 @@ function QuestAbandon(ply,cmd,args)
 	ply.data.quests[qname] = nil
 	
 	HudText(ply,"You have just abandoned the quest : " .. Quests[qname].title)
-	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+	file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
 
 end
 concommand.Add("QuestAbandon",QuestAbandon)
@@ -53,7 +53,7 @@ function QuestEnd(ply,cmd,args)
 	
 	ply.data.quests[qname] = "Completed"
 	HudText(ply,"You have just completed the quest : " .. Quests[qname].title)
-	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+	file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
 	
 
 end
@@ -66,7 +66,7 @@ function QuestItem(ply,cmd,args)
 
 	GiveRes(ply,qitem,1)
 
-	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+	file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
 	
 
 end
@@ -82,7 +82,7 @@ local qname = args[1]
 
 	HudText(ply,"You have accepted the quest : " .. Quests[qname].title)
 
-file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
 
 end
 concommand.Add("QuestAccepted",QuestAccepted)

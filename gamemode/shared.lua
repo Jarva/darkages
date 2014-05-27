@@ -1,6 +1,5 @@
 GM.Name = "Dark Ages"
 GM.Author = "Jarva and the Dark Ages team"
-GM.Email = ""
 
 team.SetUp(2,"Adventurers",Color(130,80,50,255) )
 

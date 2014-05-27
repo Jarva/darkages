@@ -53,7 +53,6 @@ include( "magic.lua" )
 include( "buffs.lua" )
 include( "potions.lua" )
 include( "damage.lua" )
-include( "armor.lua" )
 include( "admin/init.lua" )
 include( "help/init.lua" )
 include( "menus/menu.lua")
@@ -124,7 +123,7 @@ util.AddNetworkString( "tradefinish" )
 
 
 file.CreateDir("darkages")
-file.CreateDir("darkages/save")
+file.CreateDir("darkages/Save")
 
 CreateConVar( "da_rates", 1 )
 
@@ -134,7 +133,7 @@ function char_set(ply, cmd, args)
 
 	ply.data.model = model
 
-	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
+	file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
 	
 	ply:Spawn()
 
@@ -202,7 +201,7 @@ function GM:PlayerDisconnected(ply)
 	timer.Stop(ply:UniqueID().."oxygen")
 	timer.Stop("save_" .. ply:UniqueID())
 	
-	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
+	file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data))
 	
 end
 
@@ -1331,7 +1330,7 @@ function DA_ResetCharacter(ply,cmd,args)
 	ply.data.bweight = 0
 	ply.data.bcapacity = 100
 
-	file.Write("darkages/save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+	file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
 	
 	local totallevel = 0
 	local cblevel = 0
