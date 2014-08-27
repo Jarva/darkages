@@ -13,10 +13,10 @@ function DA_LoadSkills(ply)
 	ply.Action_Time = 0
 	ply.Action_Name = "name"
 	
-	if (file.Exists("darkages/Save/"..ply:UniqueID()..".txt","DATA") ) then
+	if ply:GetPData("data", false) then
 
 		local plydata = {}
-		plydata = util.KeyValuesToTable(file.Read("darkages/Save/"..ply:UniqueID()..".txt","DATA"))  
+		plydata = von.deserialize(ply:GetPData("data", ""))
 
 		ply.data = plydata
 
@@ -48,7 +48,7 @@ function DA_LoadSkills(ply)
 		ply.data.bweight = 0
 		ply.data.bcapacity = 100
 
-		file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+		ply:SetPData("data", von.serialize(ply.data))
 
 	end
 	
@@ -102,7 +102,7 @@ function DA_LoadSkills(ply)
 	
 		if (ply.data != nil) then
 	
-		file.Write("darkages/Save/"..ply:UniqueID()..".txt",util.TableToKeyValues(ply.data) )
+		ply:SetPData("data", von.serialize(ply.data))
 		
 		end
 	
