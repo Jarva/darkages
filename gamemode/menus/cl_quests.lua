@@ -19,8 +19,6 @@ QList:SetSize(580,460)
 
 for k,v in pairs(qdata) do
 
-	print(k)
-
 	QPanel = vgui.Create("DPanel")
 	QPanel:SetSize(580,30)
 	QPanel:SetBackgroundColor(Color(60,60,60,255))

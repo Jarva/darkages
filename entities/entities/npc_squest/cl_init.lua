@@ -205,9 +205,6 @@ function Cl_Quests()
 
 	local data = net.ReadTable()
 
-	PrintTable(data)
-	print(data.ply)
-
 	plydata.quests = {}
 
 	for k,v in pairs(data.ply) do

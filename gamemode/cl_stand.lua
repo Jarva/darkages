@@ -451,11 +451,7 @@ end
 
 local dist = self:GetEyeTrace().HitPos:Distance(StandCenter)
 
-print(dist)
-
-print(StandCLModels[StandActivePart])
-
-if (dist < 128) then StandCLModels[StandActivePart]:SetColor(255,255,255,220);print("we are good"); else print("can't") end
+if (dist < 128) then StandCLModels[StandActivePart]:SetColor(255,255,255,220) end
 
 StandCLModels[StandActivePart]:SetPos(self:GetEyeTrace().HitPos)
 StandCLModels[StandActivePart]:SetAngles(Angle(0,self:GetAngles().y,0))

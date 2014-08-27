@@ -9,11 +9,6 @@ function ENT:Initialize( )
 	local item = self:GetNWString("item")
 	local range = self:GetNWInt("range")
 	local sid = math.random(1,200000)
-
-	print(time)
-	print(item)
-	print(range)
-	print(sid)
 	
 	-- timer.Create("ispawn" .. sid,time,0,function()
 	

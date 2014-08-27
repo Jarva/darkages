@@ -223,8 +223,6 @@ end
 
 function DrawArea:OnKeyCodePressed(key)
 
-print(key)
-
 end
 
 vgui.Register("DrawArea",DrawArea)

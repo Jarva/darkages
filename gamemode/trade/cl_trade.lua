@@ -2,9 +2,6 @@ function Cl_Trade(name)
 
 function AddTrade(k,v)
 
-
-		print("don't!")
-
 		local model = GetIModel(k)
 		local skin = GetISkin(k)
 
@@ -55,9 +52,6 @@ function AddTrade(k,v)
 			itemmenu:Open()
 
 		end
-
-		print("no idea!")
-		PrintTable(icon)
 
 		Trade:AddItem(icon["trade_" .. k])
 
@@ -141,8 +135,6 @@ function TradeFinish()
 	net.SendToServer()
 	
 	chat.AddText(Color(0,255,0),"The trade has been accepted")
-	
-	print("DE REMOVAL OF THE MENU SHOULD BE HERE")
 
 	Menu:Remove()
 
@@ -159,17 +151,6 @@ function Cl_TradeChange(data)
 
 			if (mate[k] + v == 0) then
 			
-			-- print("-----------------------------\n")
-			-- print("--MATE SHIT--")
-			-- print(Mate)
-			-- print("--MATE_K--")
-			-- print("mate_" .. k)
-			-- print("--ICON TABLE--")
-			-- PrintTable(icon)
-			-- print("---------------")
-			-- print("--ICON OF MATE_K--")
-			-- print(icon["mate_" .. k])
-			-- print("-----------------------------\n")
 			Mate:RemoveItem(icon["mate_" .. k])
 			icon["mate_" .. k] = nil
 			
@@ -200,11 +181,8 @@ function MateAccepted()
 
 	maccepted = 1
 
-	print(accepted)
-
 	if (accepted == 1) then 
 		TradeFinish() 
-		print("SEE? ACCEPTED")
 	end
 
 	if (accepted == 0) then

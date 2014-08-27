@@ -68,10 +68,7 @@ for I=1,icons do
 end
 
 function InviteToTrade()
-
 	RunConsoleCommand("invitetotrade")
-	print("GOING TWICE LOL 2.0")
-
 end
 
 
